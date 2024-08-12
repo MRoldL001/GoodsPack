@@ -1,0 +1,7 @@
+<resources>
+  <string name="name">GoodsPack宅裹</string>
+  <string name="creating_new_goodspack">創建新的宅裹</string>
+  <string name="take_a_picture">拍攝照片</string>
+  <string name="select_file">選擇圖片</string>
+  <string name="basket">宅裹</string>
+</resources>
