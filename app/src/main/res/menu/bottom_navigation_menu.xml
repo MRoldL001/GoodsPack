@@ -5,10 +5,10 @@
         android:title="@string/basket" />
     <item
         android:id="@+id/nav_dashboard"
-        android:icon="@drawable/ic_dashboard"
-        android:title="Dashboard" />
+        android:icon="@drawable/ic_statistics"
+        android:title="@string/statistics" />
     <item
         android:id="@+id/nav_notifications"
-        android:icon="@drawable/ic_notifications"
-        android:title="Notifications" />
+        android:icon="@drawable/ic_setting"
+        android:title="@string/setting" />
 </menu>

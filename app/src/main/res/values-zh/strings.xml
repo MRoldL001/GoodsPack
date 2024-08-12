@@ -4,4 +4,6 @@
   <string name="take_a_picture">拍照</string>
   <string name="select_file">选择图片</string>
   <string name="basket">谷裹</string>
+  <string name="statistics">统计</string>
+  <string name="setting">设置</string>
 </resources>
