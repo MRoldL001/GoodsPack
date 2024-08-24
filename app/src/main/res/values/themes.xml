@@ -1,9 +1,44 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- Base application theme. -->
-  <style name="Base.Theme.GoodsPack" parent="Theme.Material3.DayNight.NoActionBar">
-    <!-- Customize your light theme here. -->
-    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-  </style>
+    <style name="Base.Theme.GoodsPack" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize default theme -->
+    </style>
 
-  <style name="Theme.GoodsPack" parent="Base.Theme.GoodsPack" />
+    <!-- 默认主题 青碧 -->
+    <style name="Theme.GoodsPack" parent="Base.Theme.GoodsPack">
+        <item name="colorPrimary">#268785</item>
+        <item name="colorPrimaryVariant">#1e6b6b</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <!-- BottomNavigationView attributes -->
+        <item name="colorControlNormal">#a1a1a1</item>
+        <item name="colorControlActivated">#ffffff</item>
+        <item name="colorControlHighlight">#ffffff</item>
+        <!-- FloatingActionButton attributes -->
+        <item name="colorAccent">#268785</item>
+    </style>
+
+    <!-- 菖蒲 -->
+    <style name="Theme.GoodsPack.Shobu" parent="Base.Theme.GoodsPack">
+        <item name="colorPrimary">#6f3381</item>
+        <item name="colorPrimaryVariant">#5c2868</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <!-- BottomNavigationView attributes -->
+        <item name="colorControlNormal">#a1a1a1</item>
+        <item name="colorControlActivated">#ffffff</item>
+        <item name="colorControlHighlight">#ffffff</item>
+        <!-- FloatingActionButton attributes -->
+        <item name="colorAccent">#6f3381</item>
+    </style>
+
+    <!-- 桃染 -->
+    <style name="Theme.GoodsPack.Momozome" parent="Base.Theme.GoodsPack">
+        <item name="colorPrimary">#f596aa</item>
+        <item name="colorPrimaryVariant">#d98089</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <!-- BottomNavigationView attributes -->
+        <item name="colorControlNormal">#a1a1a1</item>
+        <item name="colorControlActivated">#ffffff</item>
+        <item name="colorControlHighlight">#ffffff</item>
+        <!-- FloatingActionButton attributes -->
+        <item name="colorAccent">#f596aa</item>
+    </style>
 </resources>

@@ -41,4 +41,17 @@
         <!-- FloatingActionButton attributes -->
         <item name="colorAccent">#f596aa</item>
     </style>
+
+    <!-- 动态 -->
+    <style name="Theme.GoodsPack.Dynamic" parent="Base.Theme.GoodsPack">
+        <item name="colorPrimary">@android:color/system_accent1_500</item>
+        <item name="colorPrimaryVariant">@android:color/system_accent1_700</item>
+        <item name="colorOnPrimary">@android:color/system_neutral1_1000</item>
+        <!-- BottomNavigationView attributes -->
+        <item name="colorControlNormal">@android:color/system_accent1_500</item>
+        <item name="colorControlActivated">@android:color/system_accent1_700</item>
+        <item name="colorControlHighlight">@android:color/system_accent1_700</item>
+        <!-- FloatingActionButton attributes -->
+        <item name="colorAccent">@android:color/system_accent1_500</item>
+    </style>
 </resources>

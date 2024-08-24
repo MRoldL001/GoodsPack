@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/theme_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择主题"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/theme_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/theme_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RadioButton
+            android:id="@+id/theme_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="青碧" />
+
+        <RadioButton
+            android:id="@+id/theme_shobu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菖蒲" />
+
+        <RadioButton
+            android:id="@+id/theme_momozome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="桃染" />
+
+        <RadioButton
+            android:id="@+id/theme_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动态" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
